@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Doc</title>
+<script src="107.js"></script>
+</head>
+<body>
+<canvas width="200" height="200" style="background: #83eff7"></canvas>
+<script>
+let canvas = document.querySelector('canvas');
+let ctx = canvas.getContext('2d');
+
+ctx.beginPath();
+ctx.moveTo(100, 50);
+ctx.lineTo(150, 150);
+ctx.lineTo(50, 150);
+
+ctx.fill();
+
+</script>
+</body>
+</html>
+
+
